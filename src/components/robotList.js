@@ -1,0 +1,53 @@
+export const RobotList=[
+	{
+		name:"tumsahur",
+		email:"tusahur@gmail.Com",
+		id:1,
+	},
+	{
+		name:"panzini",
+		email:"panzini@gmail.Com",
+		id:2,
+	},
+	{
+		name:"alehandro",
+		email:"alehandro@gmail.Com",
+		id:3,
+	},
+	{
+		name:'chilinai',
+		email:'chilinai@gmail.Com',
+		id:4,
+	},
+	{
+		name:'rui costa',
+		email:'rui costa@gmail.Com',
+		id:5,
+	},
+	{
+		name:'aflele',
+		email:'aflele@gmail.Com',
+		id:6,
+	},
+	{
+		name:'bulum',
+		email:'bulum@gmail.Com',
+		id:7,
+	},
+	{
+		name:'halland',
+		email:'halland@gmail.Com',
+		id:8,
+	},
+	{
+		name:'marcosilva',
+		email:'marcosilva@gmail.Com',
+		id:9,
+	},
+	{
+		name:'hkuitetuke',
+		email:'hkuitetuke@gmail.Com',
+		id:10,
+	},
+];
+

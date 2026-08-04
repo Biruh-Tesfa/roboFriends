@@ -1,0 +1,38 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, rgb(20, 12, 60), rgb(24, 69, 175));
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cs{
+  width:277px;
+  /*height: 300px;*/
+  /*margin:20px auto;*/
+}
+
+
+input{
+  margin-bottom: 10px;
+}
+@font-face {
+  font-family: 'SegaLogo';
+  src: url('./sega/sega.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sega-text {
+  font-family: 'SegaLogo', sans-serif;
+  font-weight: 200;
+  color: #0ccaa4;
+}
