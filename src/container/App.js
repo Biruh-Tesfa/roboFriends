@@ -3,6 +3,7 @@ import CardListpo from '../components/classListpo.js';
 import SearchBar from '../components/searchBar.js';
 // import {RobotList} from '../components/robotList';
 import Scroll from '../components/scroll.js';
+import ErrorBoundry from '../components/ErrorBoundry.js';
 
 class App extends React.Component {
   constructor(){
@@ -24,6 +25,9 @@ onSearchChange = (event)=>{
   }
 
 render(){ 
+  // if(true){
+  //   throw new Error('WHATTTTTTTTTTTT');
+  // }
   const {RobotList,searchField}=this.state;
 
   const filteredRobots=RobotList.filter((eachRobot)=>{
@@ -37,7 +41,9 @@ render(){
       <h1 className="f2 sega-text">Robofriends</h1>
       <SearchBar SearchChange={this.onSearchChange} />
       <Scroll>
-        <CardListpo RobotList={filteredRobots} />
+        <ErrorBoundry>
+          <CardListpo RobotList={filteredRobots} />
+        </ErrorBoundry>
       </Scroll>
     </div>
   );
